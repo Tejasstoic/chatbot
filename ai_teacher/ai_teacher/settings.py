@@ -56,6 +56,11 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
+ALLOWED_HOSTS = [
+    'localhost',
+    '127.0.0.1',
+    'chatbot-1k9o.onrender.com',  # Add your Render domain
+]
 
 ROOT_URLCONF = 'ai_teacher.urls'
 
